@@ -215,6 +215,7 @@ a:focus {
   overflow: hidden;
   position: relative;
   width:100%;
+  padding: 15px;
 }
 
 .video-container::after {
@@ -241,6 +242,10 @@ a:focus {
 @media (min-width: 767px) {
   .content-section {
     padding-top: 50px;
+  }
+
+  .video-container{
+    padding: 45px;
   }
 }
 
